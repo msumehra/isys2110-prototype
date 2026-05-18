@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NeighbourLink | Find a Ride</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header compact">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">car</span>
+        <span>NeighbourLink</span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="find.html" aria-current="page">Find a Ride</a>
+        <a href="offer.html">Offer a Ride</a>
+        <a href="help.html">Help</a>
+        <a href="login.html">Log In</a>
+        <a class="nav-button" href="signup.html">Sign Up</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="app-frame">
+        <div class="app-title">
+          <h1>Find a ride</h1>
+          <span class="hamburger" aria-hidden="true"></span>
+        </div>
+        <div class="two-column">
+          <aside class="step-panel" aria-label="Rider process">
+            <ol class="steps">
+              <li class="active"><span>1</span>Search Ride</li>
+              <li><span>2</span>View Matches</li>
+              <li><span>3</span>Request Ride</li>
+              <li><span>4</span>Confirmation</li>
+            </ol>
+          </aside>
+
+          <section class="form-panel" aria-label="Ride search details">
+            <h2>Search details</h2>
+            <label>From (pickup location)<input type="text" value="Suburb station" readonly></label>
+            <label>To (destination)<input type="text" value="City centre" readonly></label>
+            <div class="field-row">
+              <label>Date<input type="text" value="22/05/26" readonly></label>
+              <label>Time<input type="text" value="7:30 am" readonly></label>
+            </div>
+            <a class="button wide" href="results.html">Search rides</a>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
