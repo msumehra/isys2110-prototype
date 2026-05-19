@@ -454,3 +454,140 @@ h1 {
 
     font-weight: bold;
 }
+
+
+/* OFFER RIDE PAGE */
+
+.requests-box {
+
+    width: 950px;
+
+    margin: 50px auto;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    border: 1px solid #ccc;
+}
+
+.green-top-bar {
+
+    background-color: #24a148;
+
+    color: white;
+
+    padding: 20px;
+}
+
+.request-card {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 25px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+/* MATCH INFO */
+
+.match-info p {
+
+    font-size: 18px;
+}
+
+.match-info span {
+
+    color: green;
+
+    font-weight: bold;
+}
+
+/* BUTTONS */
+
+.request-buttons {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    width: 180px;
+}
+
+.accept-btn {
+
+    background-color: #24a148;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+.decline-btn {
+
+    background-color: #da1e28;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+/* MESSAGES */
+
+.accepted-message {
+
+    display: none;
+
+    background-color: #d4edda;
+
+    color: #155724;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.declined-message {
+
+    display: none;
+
+    background-color: #f8d7da;
+
+    color: #721c24;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
