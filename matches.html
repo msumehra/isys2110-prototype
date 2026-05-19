@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Available Rides</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="matches-box">
+
+    <div class="top-bar">
+        <h2>Available Rides</h2>
+    </div>
+
+    <!-- RIDE 1 -->
+
+    <div class="ride">
+
+        <div class="profile">
+
+            <div class="empty-profile">
+                👤
+            </div>
+
+            <div>
+                <h3>Emma ⭐ 4.8</h3>
+                <p>23 rides</p>
+            </div>
+
+        </div>
+
+        <div class="details">
+            <p>Suburb → City</p>
+            <p>7:30 AM</p>
+            <p>2 seats left</p>
+        </div>
+
+        <div class="buttons">
+
+            <a href="details.html" class="view-btn">
+                View Details
+            </a>
+
+            <button class="request-btn"
+            onclick="showMessage(this)">
+                Request Ride
+            </button>
+
+            <div class="success-message">
+                ✅ Your request has been sent.
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- RIDE 2 -->
+
+    <div class="ride">
+
+        <div class="profile">
+
+            <div class="empty-profile">
+                👤
+            </div>
+
+            <div>
+                <h3>Liam ⭐ 4.6</h3>
+                <p>15 rides</p>
+            </div>
+
+        </div>
+
+        <div class="details">
+            <p>Suburb → City</p>
+            <p>8:00 AM</p>
+            <p>1 seat left</p>
+        </div>
+
+        <div class="buttons">
+
+            <a href="details.html" class="view-btn">
+                View Details
+            </a>
+
+            <button class="request-btn"
+            onclick="showMessage(this)">
+                Request Ride
+            </button>
+
+            <div class="success-message">
+                ✅ Your request has been sent.
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function showMessage(button) {
+
+    let message =
+    button.nextElementSibling;
+
+    message.style.display = "block";
+}
+
+</script>
+
+</body>
+</html>

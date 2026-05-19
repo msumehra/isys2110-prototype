@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ride Details</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+<div class="details-box">
+
+    <div class="top-bar">
+        <a href="matches.html" class="back-link">
+            ← Ride Details
+        </a>
+    </div>
+    <div class="details-content">
+        <div class="driver-profile">
+            
+            <div class="empty-profile large-profile">
+                👤
+            </div>
+
+            <h1>Profile1</h1>
+            <h2>⭐ 4.8</h2>
+            <p>23 rides</p>
+        </div>
+
+        <div class="ride-info">
+            <p><strong>From:</strong> Suburb Station</p>
+
+            <p><strong>To:</strong> City Centre</p>
+
+            <p><strong>Date:</strong> 12 Dec 2026</p>
+
+            <p><strong>Time:</strong> 7:30 AM</p>
+
+            <p><strong>Seats:</strong> 2 available</p>
+
+            <p><strong>Car:</strong> Toyota Corolla</p>
+
+            <p class="notes">
+                No smoking • Pet Friendly
+            </p>
+
+            <button class="join-btn"
+            onclick="showJoinMessage()">
+
+                Request to Join Ride
+
+            </button>
+
+            <div id="join-message">
+                ✅ Ride request sent successfully
+            </div>
+        
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+function showJoinMessage() {
+
+document.getElementById("join-message")
+.style.display = "block";
+}
+</script>
+
+</body>
+</html>
